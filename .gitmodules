@@ -1,0 +1,4 @@
+[submodule "echonet"]
+	path = echonet
+	url = https://github.com/ahmednafie11/echonet-pytorch.git
+	branch = main
