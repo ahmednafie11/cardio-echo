@@ -2,8 +2,8 @@ import echonet
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import DataLoader
-from torchvision.models.video import r2plus1d_18, R2Plus1D_18_Weights
+from echonet.models.r2plus1d import get_resnet_model
+model = get_resnet_model()
 
 def train():
     # Load dataset
