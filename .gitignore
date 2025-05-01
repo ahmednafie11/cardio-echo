@@ -68,6 +68,14 @@ node_modules/
 # dataconnect generated files
 .dataconnect
 
+.DS_Store
+*.pyc
+__pycache__/
+miniconda3/
+*.egg-info/
+.firebase/
+*.bak
+
 node_modules/
 .firebase/
 *.log
@@ -75,3 +83,4 @@ node_modules/
 firebase-debug.log
 data/
 build/
+firebase-adminsdk.json
